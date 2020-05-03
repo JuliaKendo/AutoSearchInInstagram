@@ -1,0 +1,37 @@
+DEBUG:instabot version: 0.117.0:Saving Checkpoint file to: /Users/kendodzulia/Documents/python/ToolForCompetition/config/juliaklema77.checkpoint
+DEBUG:instabot version: 0.117.0:Loading cookies
+DEBUG:instabot version: 0.117.0:Loading uuids
+INFO:instabot version: 0.117.0:Recovery from /Users/kendodzulia/Documents/python/AutoSearchInInstagram/config/juliaklema77_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=296cfd7d-45ad-4f17-a6cb-8807c1a10ebc
+- uuid=8b7d7fda-22b4-4d47-b1e0-12ffc483f776
+- client_session_id=8636d977-2b5b-4952-8a53-ad0a938c9e88
+- device_id=android-ec5ec6d23a1a4685
+INFO:instabot version: 0.117.0:LOGIN FLOW! Just logged-in: False
+DEBUG:instabot version: 0.117.0:POST to endpoint: feed/timeline/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:POST to endpoint: discover/explore/ returned response: <Response [200]>
+INFO:instabot version: 0.117.0:Logged-in successfully as 'juliaklema77'!
+DEBUG:instabot version: 0.117.0:Loading Checkpoint file from: /Users/kendodzulia/Documents/python/AutoSearchInInstagram/config/juliaklema77.checkpoint
+DEBUG:instabot version: 0.117.0:GET to endpoint: users/beautybar.rus/usernameinfo/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: users/1828755772/info/ returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776 returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776&max_id=QVFBeGgtRmJRNDBlcXp6WUxVRFBaWEI3Xzg0WGhmc2ZnNHItdkFHbFhIZFZXeHplVVkxWXBOeXQ4SGRMaXNqQXZrQjI2U2E1bWk1Sl9kRUk5a2NrNlpsbw== returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776&max_id=QVFDTExSaTBPa1RGX215NFlUM2EtcTBWMTRkVUxOTTc4cFdPSDhnNUVDNXdUcHg1X0VLNHhqMWtWRHVlNlRfSGxuNGttZDJRQzNlcjhxZ1lHRTBwbFl1ZQ== returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776&max_id=QVFEQjNYNFhjVW9fMm9EVlVVbXBJeFJDWmY4ajFuRVo1Qm84SWVjQ2hka0IzVW9iRE9YZzBuaTM4OU9JdC1iNGVOZWh1bkZEdktpWHEtcGJwTF9rWGRsaA== returned response: <Response [200]>
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776&max_id=QVFCVHQ0OHlCdEh5dnVyRmxKclpZZUhESEtrSTBFNW9PdWRxTnBhODlwRWhVcU1LNTBLYXhwZngtUWpXTjhSUm1ld2lDaDVodXcta3FEb3JyWWlka19CdA== returned response: <Response [429]>
+DEBUG:instabot version: 0.117.0:Responsecode indicates error; response content: b'{"message": "Please wait a few minutes before you try again.", "status": "fail"}'
+ERROR:instabot version: 0.117.0:Request returns 429 error!
+WARNING:instabot version: 0.117.0:That means 'too many requests'. I'll go to sleep for 5 minutes.
+DEBUG:instabot version: 0.117.0:GET to endpoint: friendships/1828755772/followers/?rank_token=13983793418_8b7d7fda-22b4-4d47-b1e0-12ffc483f776&max_id=QVFCVHQ0OHlCdEh5dnVyRmxKclpZZUhESEtrSTBFNW9PdWRxTnBhODlwRWhVcU1LNTBLYXhwZngtUWpXTjhSUm1ld2lDaDVodXcta3FEb3JyWWlka19CdA== returned response: <Response [429]>
+DEBUG:instabot version: 0.117.0:Responsecode indicates error; response content: b'{"message": "Please wait a few minutes before you try again.", "status": "fail"}'
+ERROR:instabot version: 0.117.0:Request returns 429 error!
+WARNING:instabot version: 0.117.0:That means 'too many requests'. I'll go to sleep for 10 minutes.
+DEBUG:instabot version: 0.117.0:Saving Checkpoint file to: /Users/kendodzulia/Documents/python/AutoSearchInInstagram/config/juliaklema77.checkpoint
+INFO:instabot version: 0.117.0:Total requests: 7438
