@@ -125,5 +125,5 @@ dmypy.json
 .pyre/
 
 # Adding
-/.config
+config
 Log.txt
