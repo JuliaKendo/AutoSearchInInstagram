@@ -21,8 +21,8 @@ def is_user_exist(username):
     return user_id
 
 
-def get_number_marked_friends(list_of_insta_users):
-    return len([username for username in list_of_insta_users if is_user_exist(username)])
+def get_number_marked_friends(list_of_users):
+    return len([username for username in list_of_users if is_user_exist(username)])
 
 
 def is_user_keep_conditions(comment, likers, subscribers):
